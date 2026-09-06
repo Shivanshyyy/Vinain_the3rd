@@ -9,14 +9,14 @@ const CONTENT = {
 
   // The date you two got together. Powers the live "X days, Y hours..." counter
   // in the hero section. Format: new Date(YEAR, MONTH, DAY) — MONTH IS 0-INDEXED
-  // (January = 0, so June = 5). Time defaults to midnight since it's unknown.
-  startDate: new Date(2026, 5, 6, 0, 0, 0),
+  // (January = 0, so May = 4). Time defaults to midnight since it's unknown.
+  startDate: new Date(2026, 4, 6, 0, 0, 0),
 
   // ---- HERO — the very first full-screen section ----
   hero: {
-    eyebrow: "JUNE 6, 2026",                    // small line above the big heading
+    eyebrow: "MAY 6, 2026",                     // small line above the big heading
     titleBefore: "Happy",                       // first word of the big heading
-    titleEmphasis: "Three Months",               // the gold italic word(s) in the heading
+    titleEmphasis: "Four Months",                // the gold italic word(s) in the heading
     titleName: "Vinani",                         // her name, on its own line under the heading
     tagline: "Mumbai to Kohima. one heartbeat. too many meows.", // small line under the heading
     counterCaption: "and counting"                // caption under the live day/hour/min/sec counter
@@ -55,7 +55,7 @@ const CONTENT = {
       "Soft, sleepy and goofyyy in one breath, devastatingly cheeky in the next. ",
       "You turned <em>meow</em> into the most romantic word I know.",
       "we live in same country but you just always beat me to the sunrise.",
-      "Three months in, and I still want to tell you everything the second it happens.",
+      "Four months in, and I still want to tell you everything the second it happens.",
       "Distance is the only thing keeping this PG. Barely.",
       "and lastlyy,",
       "My <em>ass</em> is yourss bbg."
@@ -66,9 +66,9 @@ const CONTENT = {
   letter: {
     salutation: "My Vinani,",                     // first line of the letter
     paragraphs: [                                  // each entry becomes its own paragraph
-      "On Feb 13th, scared me asked a cat to go out and Three months ago, on June 6th, something in my life quietly rearranged itself. I didn't plan on falling for someone who talks to cats better than she talks to people — and somehow still finds time to be devastatingly cheeky with me — but here we are.",
+      "On Feb 13th, scared me asked a cat to go out and Four months ago, on May 6th, something in my life quietly rearranged itself. I didn't plan on falling for someone who talks to cats better than she talks to people — and somehow still finds time to be devastatingly cheeky with me — but here we are.",
       "Long distance is not for the weak(said by lord of the meowmeow), and Mumbai to Kohima is further than it should be. But then you send one unhinged <em>meow</em> and it undoes every mile between us. You make a stupid amount of distance feel like a technicality and idk how, brings so much hope.",
-      "I don't know when we'll be in the same room again — could be months, could be longer — and I've stopped pretending that doesn't scare me a little. But I'd rather wait for you than settle for anyone easier to reach. So here's to three months, and to every one after it, however far apart they have to happen.",
+      "I don't know when we'll be in the same room again — could be months, could be longer — and I've stopped pretending that doesn't scare me a little. But I'd rather wait for you than settle for anyone easier to reach. So here's to four months, and to every one after it, however far apart they have to happen.",
       "Keep talking to the cats. Keep being cheeky. Keep saying meow like it's a whole sentence — half the time I don't think you mean the cats, and my ass is yours."
     ],
     signature: "Yours, Mumbai to Kohima — Shivansh" // last line, bottom-right of the letter
@@ -107,7 +107,7 @@ const CONTENT = {
 
   // ---- CLOSING — last section ----
   closing: {
-    heading: "Happy Three Months",
+    heading: "Happy Four Months",
     sub: "meow, forever.",
     secretButtonLabel: "reveal a secret",          // label the button starts with
     // Cycles to the next message each time the button is tapped, on repeat.
@@ -115,9 +115,9 @@ const CONTENT = {
       "I love you more than you love cats.<br><span>(Statistically impossible. Still true.)</span>",
       "Long distance has exactly one upside — you have no idea what I'm going to do the next time I see you.",
       "Every <span>meow</span> you send does things that would get flagged in both Mumbai and Kohima.",
-      "Three months down. I'm not going anywhere, so get used to me."
+      "Four months down. I'm not going anywhere, so get used to me."
     ],
-    footer: "built with too many browser tabs and zero regrets — since June 6, 2026"
+    footer: "built with too many browser tabs and zero regrets — since May 6, 2026"
   },
 
   // ---- FLOATING CAT ICON (bottom-right corner, clickable on every page) ----
